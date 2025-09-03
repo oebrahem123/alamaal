@@ -1,0 +1,507 @@
+@media screen and (max-width: 1280px) {
+
+    #container {
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+        top: 0px;
+    }
+    #summary {
+        position: relative;
+        top: 21px;
+    }
+    #article {
+        position: relative;
+        top:10px;
+    }
+    .lin_li{
+        top: 21px;
+      } 
+}
+
+
+
+@media screen and (max-width: 980px) {
+
+    #container {
+        width: 100% !important;
+    }
+   
+
+}
+
+                     /* @@@@@@@@@@@@@@@@@  1280px @@@@@@@@@@@@@@@@@ */
+                     /* @@@@@@@@@@@@@@@@@  1280px @@@@@@@@@@@@@@@@@ */
+                     /* @@@@@@@@@@@@@@@@@  1280px @@@@@@@@@@@@@@@@@ */
+
+
+@media screen and (max-width: 1280px) {
+
+    /* Basic */
+
+        body, select, textarea {
+            font-size: 11.5pt;
+        }
+
+    /* Spotlight */
+
+        .spotlight.top .content {
+            padding: 3.825em 0 1.825em 0;
+        }
+
+        .spotlight.bottom .content {
+            padding: 3.825em 0 2.95em 0;
+        }
+
+        .spotlight.left .content, .spotlight.right .content {
+            padding: 4.5em 2.5em;
+            width: 25em;
+        }
+
+    /* Wrapper */
+
+        .wrapper {
+            padding: 4.5em 0 2.5em 0;
+        }
+         /**************** start alamla ********************/
+
+
+
+        .text h4{
+            font-size: 45px;
+        }
+    
+        .text h2{
+            font-size: 33px;
+            line-height: 86px;
+        }
+        .text p{
+    font-size: 16px;
+        
+        }
+
+        /**************** end alamla ********************/
+
+        /**************** start Footer ********************/
+    
+    .footer_one {
+        position: flex;
+        width: 100%;
+        height: 70px;
+        top: 0px;
+        position: relative;
+        background-size: contain;
+        background-color: #fff;
+     
+    }
+        .footer_one p{
+            left: 198px;
+            top: 23px;
+            font-size: 15px;
+        }
+    
+        .footer_one h6{
+            left: 74px;
+            top: 39px;
+            font-size: 18px;
+        }
+        .phone{
+            left: 22px;
+            top: 19px;
+        }
+        .button_phone {
+            width: 40px;
+            height: 40px;
+          }
+        #footer {
+            padding: 4.5em 0;
+        }
+         /**************** End Footer ********************/
+         .boxicon{
+            top: 21px;
+            height: 82vh;
+         }
+         .boxicon .module_counter{
+            top: 33px;
+         }
+
+         .ar{
+            padding: 53px 0px;
+         }
+}
+
+
+                     /* @@@@@@@@@@@ 950px and 1150px @@@@@@@@@@@ */
+                     /* @@@@@@@@@@@ 950px and 1150px @@@@@@@@@@@ */
+                     /* @@@@@@@@@@@ 950px and 1150px @@@@@@@@@@@ */
+
+            @media (min-width: 950px) and (max-width: 1150px){
+
+
+              
+            
+                    body, select, textarea {
+                        font-size: 12pt;
+                    }
+             /**************** start alamla ********************/
+
+             #home {
+                background-attachment: scroll;
+            }
+            #id_banner_down1 {
+                background-attachment: scroll;
+            }
+            #article .meu-text{
+                position: relative;
+                margin: auto;
+                top: 10px;
+            }
+                #banner .goto-next {
+                    height: 7em;
+                }
+            
+                #home .home-content {
+                    padding: 0em 0;
+                    
+                }
+
+            
+                #home .home-content .text h4{
+                font-size: 45px;
+                margin:auto;
+                }
+            
+                #home .home-content .text h2{
+                    font-size: 29px;
+                    padding:54px 0px 54px 0px;
+                    margin: auto;
+                }
+                #home .home-content .text p{
+                    font-size: 25px;
+                    margin: auto;
+                }
+                  
+            
+                    #home .home-content .img {
+                        margin: 0;
+                    }
+  
+                    .home-content{
+                        /* flex-direction: column; */
+                        justify-content: center;
+                    }
+                    .home-content img {
+                        position: relative;
+                        width: 49vh;
+                        top: 0px;
+                        right: 45px;
+                    }
+                    .home-content .text {
+                        position: relative;
+                        top: 3px;
+                        width: 100%;
+                        height: 30vh;
+                }
+              #article{
+                position: relative;
+              }
+              /* <!-- *********************** Start Container  **************************** --> */
+              #container {
+                width: 100%;
+                max-width: 100%;
+                position: relative;
+                top: 0px;
+               overflow: hidden;
+            }
+            .card-list .card-item {
+                padding: 4px;
+                width: 42vh;
+                height: 32vh;
+                top: -13px;
+            position: relative; 
+            }
+            .card-item h3 {
+              font-size: 18px;
+            }
+            .card-list {
+                grid-template-columns: repeat(3, 2fr);
+                position: relative;
+                left: 22px;
+              }          
+              /* <!-- *********************** End Container  **************************** --> */
+
+              /* <!-- *********************** Start slider  **************************** --> */
+              .swiper {
+               
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                top: -61px;
+            }
+              
+              /* <!-- *********************** End slider  **************************** --> */
+
+            
+            
+             /**************** End home-content********************/
+                           
+
+                            #article .meu-text{
+                                margin: auto;
+                                position: relative;
+                                top: 0px;
+                                z-index:-1;
+                            }
+             /**************** end .meu-text ********************/
+
+/* <!-- ***********************Start Whatsapp icon  **************************** --> */
+.whatsapp-icon {
+    left: 28px; 
+    bottom: 52px; 
+    z-index: 1000; 
+    font-size: 45px;
+  }
+             /**************** start Footer ********************/
+          
+                  .footer_one {
+                    height: 71px;
+                    top: 0px;
+                }
+                    .footer_one p{
+                        height: 0px;
+                        left: 236px;
+                        top: 19px;
+                    }
+                
+                    .footer_one h6{
+                        left: 86px;
+                        top: 37px;
+                        font-size: 24px;
+                        line-height: 0px;
+                    }
+                    .phone{
+                        left: 25px;
+                        bottom: 0;
+                        top: 19px;
+                    }
+                    .button_phone {
+                        width: 40px;
+                        height: 40px;
+                      }
+                      
+                      .button_phone:hover {
+                        background-color: #2bac47;
+                      }
+                    #footer {
+                        padding: 4.5em 0;
+                    }
+                    .one h4{
+                        font-size: 10px;
+                    }
+                }
+             /**************** End Footer ********************/
+
+
+
+                     /* @@@@@@@@@@@@@@@@@@@ 950px @@@@@@@@@@@@@@@@@@@@@@@ */
+                     /* @@@@@@@@@@@@@@@@@@@ 950px @@@@@@@@@@@@@@@@@@@@@@@ */
+                     /* @@@@@@@@@@@@@@@@@@@ 950px @@@@@@@@@@@@@@@@@@@@@@@ */
+
+            @media (max-width:950px){
+
+
+
+/********************* Start home **************************/
+#home {
+    background-attachment: scroll;
+    top: 90px;
+}
+#id_banner_down1 {
+    background-attachment: scroll;
+}
+#article .meu-text{
+    position: relative;
+    z-index: -1;
+    display: flex;
+    margin: auto;
+}
+    #banner .goto-next {
+        height: 7em;
+    }
+
+    #home .home-content {
+        padding: 0em 0;
+        
+    }
+
+    #home .home-content .text h4{
+    font-size: 45px;
+    margin:auto;
+    }
+
+    #home .home-content .text h2{
+        font-size: 32px;
+        padding:54px 0px 54px 0px;
+        margin: auto;
+    }
+    #home .home-content .text p{
+        font-size: 25px;
+        margin: auto;
+    }
+      
+
+        #home .home-content .img {
+            margin: 0;
+        }
+
+        .home-content{
+            flex-direction: column;
+            justify-content: center;
+        }
+        .home-content img {
+            position: relative;
+            width: 30vh;
+            top: 0px;
+            right: 0px;
+        }
+        .home-content .text {
+            position: relative;
+            top: 3px;
+            width: 100%;
+            height: 30vh;
+    }
+    .meu-text p {
+        font-size: 15px;
+        text-align: right;
+        width: 80%;
+      }
+    /* <!-- *********************** Start post-summary  **************************** --> */
+    .activities .item h2 {
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 1px;
+    }
+   
+    /* <!-- *********************** End post-summary  **************************** --> */
+
+ /* <!-- *********************** Start Container  **************************** --> */
+ #container {
+height: 133vh;
+top: 0px;
+}
+
+.card-list .card-item {
+position: relative; 
+height: 25vh;
+width: 46vh;
+}
+.card-list .card-item img{
+    aspect-ratio: 21 / 9;
+}
+.card-item h3 {
+  font-size: 12px;
+  top: 0px;
+  position: relative;
+}
+.card-list {
+    grid-template-columns: repeat(1, 2fr);
+    gap: 9px;
+  }         
+  .lin_li{
+    top: 19px;
+  } 
+
+  /* <!-- *********************** End Container  **************************** --> */
+
+    /* <!-- *********************** Start slider  **************************** --> */
+    .swiper {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        z-index:-1;
+    }
+
+    .image-data h2 {
+        font-size: 20px;
+      }
+      #summary {
+        position: relative;
+        top: 19px;
+        padding: 0;
+        z-index: 0;
+        height: 100vh;
+      /* <!-- *********************** End slider  **************************** --> */
+}
+      /* <!-- *********************** Start boxicon  **************************** --> */
+      .boxicon {
+        top: 19px;
+        height: 155vh;
+    }
+    .boxicon .module_counter{
+        top: 31px;
+    }
+    .module_counter .box .icon {
+        font-size: 26px;
+        width: 44px;
+    height: 44px;
+    } 
+    .module_counter .box p{
+        font-size: 20px;
+    }
+    .ar {
+        padding: 39px 0px;
+    }
+      /* <!-- *********************** Start Down_nav **************************** --> */
+      .icon_logo {
+        position: relative;
+        left: 27px;
+        bottom: 1px;
+      }
+      /* <!-- ***********************Start Whatsapp icon  **************************** --> */
+.whatsapp-icon {
+    left: 5px; 
+    bottom: 34px; 
+    font-size: 40px;
+  }
+  .rowe p{
+    right: 0px;
+    font-size: 14px;
+    padding-top: 2px;
+  }
+  .one h4{
+    font-size: 10px;
+}
+.one_down h4 {
+    font-size: 10px;
+    padding: 17px 0px 12px 6px;
+}
+}
+/* <!-- *********************** footer_down  **************************** --> */
+
+@media (max-width:1100px) {
+    .footer_down .content_down .middle{
+      padding-left: 50px;
+    }
+  }
+  @media (max-width:950px){
+    .footer_down .content_down .box{
+      width: 50%;
+    }
+    .content_down .right{
+      margin-top: 40px;
+    }
+  }
+  @media (max-width:560px){
+    .footer_down{
+      position: relative;
+      top: 15px;
+    }
+    .footer_down .content_down .box{
+      width: 100%;
+      margin-top: 30px;
+    }
+    .footer_down .content_down .middle{
+      padding-left: 0;
+    }
+  }
+  
