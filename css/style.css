@@ -12,13 +12,13 @@ section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	direction: rtl; 
-  
+	direction: rtl;
+
 	vertical-align: baseline;}
   a{
     text-decoration: none;
   }
-  
+
   ::selection{
     background-color: #c87e4f;
     color: #fff;
@@ -37,7 +37,7 @@ section, summary, time, mark, audio, video {
     border-radius: 1rem;
     background-color:#c87e4f
   }
-  
+
   .flex{
     display: flex;
     align-items: center;
@@ -56,7 +56,7 @@ section, summary, time, mark, audio, video {
 		background: #ffffff;
 	}
 
-	
+
 
 	body, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
@@ -67,12 +67,12 @@ section, summary, time, mark, audio, video {
 *{
   margin: 0;
   padding: 0;
-  direction: rtl; 
+  direction: rtl;
 }
 
 body{
   min-height: 100vh;
-  
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -86,8 +86,8 @@ body{
 
 .navbar__container {
   display: flex;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
@@ -98,7 +98,7 @@ body{
 }
 
 .navbar__menu, .sidebar {
-  justify-content: center; 
+  justify-content: center;
 }
 .sidebar li:hover {
   background-color:#0c9500;
@@ -108,7 +108,7 @@ body{
   color: #fff;
 }
 #navbar__logo{
-  width: 100px; 
+  width: 100px;
   margin: 0px 0px 0px 15px;
   position: relative;
   }
@@ -120,7 +120,7 @@ nav{
   background-color: white;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   width: 100%;
 }
 nav ul{
@@ -150,7 +150,7 @@ nav li:first-child{
 }
 .sidebar{
   position: fixed;
-  top: 0; 
+  top: 0;
   right: 0;
   height: 100vh;
   width: 250px;
@@ -167,7 +167,7 @@ nav li:first-child{
 .navbar__menu {
   list-style: none;
   padding: 0;
-  display: flex; 
+  display: flex;
   background-color:#0c9500;
   width: 100%;
   height: 50px;
@@ -176,7 +176,7 @@ nav li:first-child{
   display: flex;
   justify-content: center;
   z-index: -1;
-  
+
   }
 .sidebar li{
   width: 100%;
@@ -191,21 +191,21 @@ nav li:first-child{
 
    /*********************** Start Section one ****************************/
    @keyframes text {
-    
+
     0% {
-        
+
         color: #000;
         margin-bottom: -40px
     }
-    
+
     30% {
-        
+
         letter-spacing: 25px;
         margin-bottom: -40px
     }
-    
+
     85% {
-        
+
         letter-spacing: 8px;
         margin-bottom: -40px
     }
@@ -241,18 +241,7 @@ nav li:first-child{
     position: relative;
     padding:123px 0px 115px 0px;
   }
-  /* #home .home-content h2::before {
-    content: "";
-    height: 30px;
-    width: 2px;
-    position: absolute;
-    top: 46%;
-    right: auto; 
-    left: 0;  
-    background: #0c9500;
-    transform: translateY(0%);
-    animation: blink 0.7s infinite;
-} */
+
   #home .home-content p{
     position: relative;
     text-align: center;
@@ -261,11 +250,11 @@ nav li:first-child{
     font-weight: 700;
     font-size: 22px;
     color: rgb(0, 0, 0);
-  
+
   }
   #home{
       position: relative;
-      z-index: 0; 
+      z-index: 0;
   }
   #home .home-content{
     height: 72vh;
@@ -288,107 +277,16 @@ nav li:first-child{
             position: relative;
             top: 0px;
             width: 100%;
-            
+
           }
    /*********************** End Section one ****************************/
-
-   /*********************** Start Footer ****************************/
-   /* .content{
-position: relative;
-justify-content: center;
-height: 68px;
-   }
-   .footer_one{
-		position: flex;
-		width: 100%;
-		height: 79px;
-        top: 0px;
-        position: relative;
-		background-size:contain;
-    background-image: url('../uploads/زخارف1.png');
-    background-repeat: repeat;
-    background-repeat: repeat;
-    background-size: 31vw 22vw;
-    background-color: rgba(0, 0, 0, 0.1);
-	}	
-	.line{
-		width: 100%;
-		position: relative;
-		border: 1px solid #9e711f;
-	}
-	.line2{
-		width: 100%;
-		position: relative;
-		border: 1px solid #9e711f;
-    top: 10px;
-
-	}
-	.footer_one p{
-		position: relative;
-		width: 99%;
-		height: 0px;
-
-		left: 311px;
-		top: 18px;
-		font-family: 'Amiri';
-		font-style: normal;
-		font-weight: 400;
-		font-size: 26px;
-		line-height: 33px;
-		text-align: left;
-		color: #000000;
-	
-	}
-
-	.footer_one h6{
-		position: absolute;
-		width: 100%;
-		height: 0px;
-		left: 116px;
-		top: 37px;
-		font-family: 'Amiri';
-		font-style: normal;
-		font-weight: 400;
-		font-size: 31px;
-		line-height: 0px;
-		text-align: left;
-		color: #9e711f;
-	}
-	.phone{
-		position: relative;
-		width: 100%;
-		left: 39px;
-		bottom: 0px;
-    top: 8px;
-		align-items: center;
-		display: flex;
-		justify-content: flex-end;
-	}
-	.button_phone {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		width: 60px;
-		height: 60px;
-		border-radius: 100%;
-		border: none;
-		background-color: #30C04F;
-	  }
-	  
-	  .button_phone:hover {
-		background-color: #2bac47;
-	  }
-	  
-    */
-  
-   /*********************** End Footer ****************************/
 
    /*********************** start article ****************************/
 
    #article{
 		position: relative;
 	  }
-	
+
 	#article .meu-text{
 		min-height: 89vh;
 		position: relative;
@@ -417,7 +315,7 @@ height: 68px;
 		width: 100%;
 		color: rgba(0, 0, 0, 1);
 		position: relative;
-	
+
 		font-family: Amiri;
 		font-weight: 400;
 		font-size: 30px;
@@ -430,60 +328,23 @@ height: 68px;
 
 .box-wrapper {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
     margin: 10px;
 }
    .container {
-    /* width: 100%;
-    height: 94vh;
-    max-height: 115vh;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow:hidden; */
     width: 100%;
-    /* height: 100vh;  */
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
 }
-.card-list {
-  display: grid;
-  /* grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); */
-  grid-template-columns: repeat(4,1fr);
-  max-width:100%;
-  margin:44px auto;
-  padding: 0px;
-  gap: 10px;
-}
 
-.card-list .card-item {
-  background: none;
-  padding: 8px;
-  border-radius: 8px;
-  /* box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04); */
-  list-style: none;
-  cursor: pointer;
-  height: 38vh;
-  width: 45vh;
-  text-decoration: none;
-  border: 22px solid transparent;
-  transition: border 0.5s ease;
-}
+
 .card-list .card-item:hover {
-  border: 2px solid #9e711f;
+  border: 2px solid #9e721f90;
 }
-.card-list .card-item img {
-  width: 100%;
-  aspect-ratio: 16/9;
-  border-radius: 8px;
-  object-fit: cover;
-}
-
 .card-item h3 {
   color: #000;
   font-size: 20px;
@@ -496,23 +357,21 @@ height: 68px;
   border: 1px solid #9e711f;
   width: 90%;
   display: flex;
-  
+
 }
 .lin_li{
 position: relative;
 width: 100%;
-/* background-color: #e5e5e5; */
 display: flex;
 justify-content: center;
 align-items: center;
 
 }
 .tx{
-  position: absolute; 
+  position: absolute;
   text-align: center;
-  background-color: #fff; 
-  /* transform: translateY(-50%); */
-  padding: 0 0px; 
+  background-color: #fff;
+  padding: 0 0px;
   color: #000000;
   z-index: 1;
   width: 100px;
@@ -538,10 +397,9 @@ align-items: center;
   cursor: pointer;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
   background-color:#fff;
-  /* z-index: 10; */
   justify-content: center;
   transition: 0.3s;
- 
+
 }
 .scrollUpBtn-active{
   bottom: 3rem;
@@ -558,11 +416,6 @@ align-items: center;
 }
 
 
-@media screen and (max-width: 980px) {
-  .card-list {
-      margin: 0 auto;
-  }
-}
 
 /* <!-- *********************** End Section  **************************** --> */
 
@@ -665,12 +518,6 @@ align-items: center;
 
 /* <!-- *********************** Start BoxIcon **************************** --> */
 .boxicon{
-  /* background-position: center center;
-  background-image: url(../uploads/زخارف1.png);
-  background-repeat: repeat;
-  background-repeat: repeat;
-  background-size: 31vw 22vw;
-  background-color: rgba(0, 0, 0, 0.1); */
   top: 0px;
   height: 53vh;
   padding: 50px;
@@ -680,9 +527,9 @@ align-items: center;
   align-items: center;
 }
 .ar{
-  position: absolute; 
+  position: absolute;
   text-align: center;
-  padding: 32px 0px; 
+  padding: 32px 0px;
   color: #000000;
   z-index: 1;
   width: 100%;
@@ -740,7 +587,7 @@ align-items: center;
   position: relative;
   font-family: sans-serif;
   top: -27px;
- 
+
 }
 .module_counter .box .text{
   font-weight: 400;
@@ -802,7 +649,7 @@ align-items: center;
   .navbar__menu {
     list-style: none;
     padding: 0;
-    display: flex; 
+    display: flex;
     background-color:#eaeaea00;
     width: 100%;
     height: 50px;
@@ -848,23 +695,13 @@ display: none;
   padding: 42px;
   }
 
-   .card-list .card-item {
-    padding: 4px;
-    width:48vh;
-    height: 26vh;
-    /* top: -13px; */
-position: relative; 
-}
+
 .card-item h3 {
   padding: 10px;
   font-size: 14px;
-  /* top: -19px; */
   position: relative;
 }
-.card-list {
-    grid-template-columns: repeat(2, 2fr);
-    gap: 30px;
-  }          
+
 
      /*********************** End navbar ****************************/
 }
@@ -883,7 +720,7 @@ position: relative;
   line-height: inherit;
   -webkit-tap-highlight-color: transparent;
   position: fixed;
-  top: 40%; 
+  top: 40%;
 }
 .anchor_social1 a {
   position: relative;
@@ -1034,7 +871,7 @@ position: relative;
 .lower{
   position: relative;
   padding: auto;
-  
+
 }
 /*<!-- ***********************end footer_down  **************************** -->*/
 
@@ -1042,15 +879,15 @@ position: relative;
 /* <!-- ***********************Start Whatsapp icon  **************************** --> */
 .whatsapp-icon {
   position: fixed;
-  left: 28px; 
-  bottom: 114px; 
-  z-index: 1000; 
+  left: 28px;
+  bottom: 114px;
+  z-index: 1000;
   font-size: 59px;
 }
 
 .whatsapp-icon a{
-  width: 50px; 
-  height: 50px; 
+  width: 50px;
+  height: 50px;
   cursor: pointer;
   color: #03A100;
 }
@@ -1060,15 +897,15 @@ position: relative;
   width: 100%;
   height:105px;
       top: 0px;
-    direction: ltr; 
+    direction: ltr;
   background-position: center center;
   background-image: url(../uploads/زخارف1.png);
   background-repeat: repeat;
   background-repeat: repeat;
   background-size: 31vw 22vw;
-  background-color: rgba(0, 0, 0, 0.1); 
+  background-color: rgba(0, 0, 0, 0.1);
 box-shadow: 3px 3px 5px rgba(0, 0, 0, 34%);
-}	
+}
 
 .one_down h4{
   display: flex;
@@ -1094,7 +931,7 @@ box-shadow: 3px 3px 5px rgba(0, 0, 0, 34%);
   display: flex;
   height: 30px;
 bottom: 13px;
-} 
+}
 .rowe p{
   position: relative;
   display: flex;
@@ -1125,7 +962,7 @@ direction: ltr;
   display: flex;
   align-items: center;
   background-color: #fff;
-  width: 104px;	
+  width: 104px;
   height: 105px;
   top: -43px;
 background-image: url("../uploads/IMG-20230331-WA0004-.png");
@@ -1142,10 +979,10 @@ background-size: cover;
       background-repeat: repeat;
       background-repeat: repeat;
       background-size: 31vw 22vw;
-      background-color: rgba(0, 0, 0, 0.1); 
+      background-color: rgba(0, 0, 0, 0.1);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 34%);
 direction: ltr;
-}	
+}
 .one h4{
   display: flex;
   font:100px ;
@@ -1159,5 +996,36 @@ direction: ltr;
   font-optical-sizing: auto;
   font-style: normal;
 direction: ltr;
-  
+
 }
+
+
+
+
+
+.user-dropdown { position: relative; }
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background: #fff;
+  min-width: 100%;
+  box-shadow: 0 6px 18px rgba(0 0 0 / 16%);
+  border-radius: 6px;
+  padding: 8px 0;
+  right: 0;
+  z-index: 50;
+}
+.dropdown-menu.open { display: block; }
+.dropdown-menu li { list-style: none; }
+.dropdown-menu li a {
+  display: block;
+  width: 144px;
+  padding: 8px 14px;
+  color: #333;
+  text-decoration: none;
+}
+.dropdown-menu li a:hover { background: #f5f7fb; }
+@media (max-width: 768px) {
+  .hideOnMobile { display: none; }
+}
+
