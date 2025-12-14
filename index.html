@@ -383,7 +383,124 @@ data-aos-easing="ease-in-sine">
 <!-- ***********************End Js Script  **************************** -->
   
 <!-- *********************Start Script**************************** -->
+  <script>
 
+                // Start slide
+var swiper = new Swiper(".mySwiper", {
+ slidesPerView: 1,
+ loop: true,
+ pagination: {
+   el: ".swiper-pagination",
+   clickable: true,
+ },
+ navigation: {
+   nextEl: ".swiper-button-next",
+   prevEl: ".swiper-button-prev",
+ },
+});
+                       // End slide
+
+                       // Start Navbar>
+function showSidebar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'flex'
+  }
+  function hideSidebar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'none'
+  }
+                       // End Navbar
+  
+                       // Scroll up button
+    const scrollUpBtn = document.querySelector('.scrollUp-btn');
+
+    if(scrollY > 250){
+      scrollUpBtn.classList.add("scrollUpBtn-active");
+    }else{
+      scrollUpBtn.classList.remove("scrollUpBtn-active");
+    }
+    
+
+                       //Start social1
+var socialIcons = document.querySelector('.anchor_social1');
+var footerDown = document.querySelector('.footer_down');
+
+function checkPosition() {
+
+  var footerTop = footerDown.getBoundingClientRect().top;
+
+  if (footerTop <= window.innerHeight) {
+    socialIcons.classList.add('hidden');
+
+  } else {
+    socialIcons.classList.remove('hidden');
+  }
+}
+
+window.onscroll = checkPosition;
+
+
+window.onresize = checkPosition;
+
+checkPosition();
+                       // End social1
+
+
+
+
+                       // Start Window 
+
+let docTitle = document.title;
+window.addEventListener("blur", ()=>{
+  document.title =" 😊جمعيه الامل فى انتظارك ";
+})
+window.addEventListener("focus", () =>{
+  document.title = docTitle;
+})
+
+                       // End Window 
+
+
+
+                       // Start Typing Effect 
+
+const dynamicText = document.querySelector("h2");
+const words = [" أمل يتجدد  عطاء يتدفق "];
+
+// Variables to track the position and deletion status of the word
+let wordIndex = 0;
+let charIndex = 0;
+let isDeleting = false;
+
+const typeEffect = () => {
+    const currentWord = words[wordIndex];
+    const currentChar = currentWord.substring(0, charIndex);
+    dynamicText.textContent = currentChar;
+    dynamicText.classList.add("stop-blinking");
+
+    if (!isDeleting && charIndex < currentWord.length) {
+        // If condition is true, type the next character
+        charIndex++;
+        setTimeout(typeEffect, 200);
+    } else if (isDeleting && charIndex > 0) {
+        // If condition is true, remove the previous character
+        charIndex--;
+        setTimeout(typeEffect, 100);
+    } else {
+        // If word is deleted then switch to the next word
+        isDeleting = !isDeleting;
+        dynamicText.classList.remove("stop-blinking");
+        wordIndex = !isDeleting ? (wordIndex + 1) % words.length : wordIndex;
+        setTimeout(typeEffect, 1200);
+    }
+}
+
+typeEffect();
+                       // End Typing Effect 
+
+    
+</script>
+<!-- ****************<End Script>***************** -->
 
 </body>
 </html>
